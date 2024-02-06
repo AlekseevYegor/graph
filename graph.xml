@@ -1,0 +1,110 @@
+<graph>
+    <id>g0</id>
+    <name>The Graph Name</name>
+    <nodes>
+        <node>
+            <id>a</id>
+            <name>A name</name>
+        </node>
+        <node>
+            <id>b</id>
+            <name>B name</name>
+        </node>
+        <node>
+            <id>c</id>
+            <name>C name</name>
+        </node>
+        <node>
+            <id>d</id>
+            <name>D name</name>
+        </node>
+        <node>
+            <id>e</id>
+            <name>E name</name>
+        </node>
+        <node>
+            <id>f</id>
+            <name>F name</name>
+        </node>
+        <node>
+            <id>g</id>
+            <name>G name</name>
+        </node>
+        <node>
+            <id>h</id>
+            <name>H name</name>
+        </node>
+        <node>
+            <id>i</id>
+            <name>I name</name>
+        </node>
+    </nodes>
+    <edges>
+        <node>
+            <id>a1</id>
+            <from>a</from>
+            <to>e</to>
+            <cost>42</cost>
+        </node>
+        <node>
+            <id>a2</id>
+            <from>a</from>
+            <to>b</to>
+            <cost>10.0</cost>
+        </node>
+        <node>
+            <id>e1</id>
+            <from>e</from>
+            <to>c</to>
+            <cost>3.0</cost>
+        </node>
+        <node>
+            <id>c1</id>
+            <from>c</from>
+            <to>a</to>
+            <cost>42.0</cost>
+        </node>
+        <node>
+            <id>c2</id>
+            <from>c</from>
+            <to>d</to>
+            <cost>5.0</cost>
+        </node>
+        <node>
+            <id>b1</id>
+            <from>b</from>
+            <to>d</to>
+            <cost>20.0</cost>
+        </node>
+        <node>
+            <id>b2</id>
+            <from>b</from>
+            <to>f</to>
+            <cost>20.0</cost>
+        </node>
+        <node>
+            <id>f1</id>
+            <from>f</from>
+            <to>i</to>
+            <cost>10.0</cost>
+        </node>
+        <node>
+            <id>i1</id>
+            <from>i</from>
+            <to>h</to>
+            <cost>10.0</cost>
+        </node>
+        <node>
+            <id>h1</id>
+            <from>h</from>
+            <to>g</to>
+            <cost>10.0</cost>
+        </node>
+        <node>
+            <id>d1</id>
+            <from>d</from>
+            <to>g</to>
+            <cost>10.0</cost>
+        </node>
+    </edges>
+</graph>
